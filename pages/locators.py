@@ -10,6 +10,12 @@ class LoginPageLocators:
     REGISTER_FORM = (By.CSS_SELECTOR, "#register_form")
 
 
+class BasketPageLocators:
+    BASKET_BUTTON = (By.CSS_SELECTOR, ".basket-mini a.btn-default")
+    NOT_EMPTY_BASKET = (By.CSS_SELECTOR, ".hidden-xs")
+    EMPTY_BASKET_MESSAGE = (By.CSS_SELECTOR, "#content_inner a")
+
+
 class ProductPageLocators:
     ADD_TO_BASKET = (By.CSS_SELECTOR, ".btn-add-to-basket")
     PRODUCT_NAME_IN_BASKET = (By.CSS_SELECTOR, "#messages :nth-child(1)"
